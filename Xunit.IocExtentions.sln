@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectToTest", "ProjectToTest\ProjectToTest.csproj", "{6BA84622-35DD-4CD3-8B2A-12512526644E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectToTest.Tests", "ProjectToTest.Tests\ProjectToTest.Tests.csproj", "{4ED45F49-DF0F-4A9B-9E1E-B1EB6A43DCC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xunit.IocExtentions", "Xunit.IocExtentions\Xunit.IocExtentions.csproj", "{3EE5DC60-A721-4614-BE87-F0276E6ED332}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BA84622-35DD-4CD3-8B2A-12512526644E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BA84622-35DD-4CD3-8B2A-12512526644E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BA84622-35DD-4CD3-8B2A-12512526644E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BA84622-35DD-4CD3-8B2A-12512526644E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ED45F49-DF0F-4A9B-9E1E-B1EB6A43DCC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED45F49-DF0F-4A9B-9E1E-B1EB6A43DCC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED45F49-DF0F-4A9B-9E1E-B1EB6A43DCC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED45F49-DF0F-4A9B-9E1E-B1EB6A43DCC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EE5DC60-A721-4614-BE87-F0276E6ED332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE5DC60-A721-4614-BE87-F0276E6ED332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE5DC60-A721-4614-BE87-F0276E6ED332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE5DC60-A721-4614-BE87-F0276E6ED332}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
