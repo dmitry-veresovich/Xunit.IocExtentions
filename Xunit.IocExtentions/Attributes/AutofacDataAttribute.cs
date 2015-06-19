@@ -22,8 +22,7 @@ namespace Xunit.IocExtentions.Attributes
         {
             var resultList = new List<object>();
             var typeResolver = new AutofacTypeResolver(testMethod.GetCustomAttributes<DependencyAttribute>(), _typeToResolve);
-            var resolved = typeResolver.Resolve(_typeToResolve);
-            resultList.Add(resolved);
+            resultList.Add(typeResolver.Resolve());
             resultList.AddRange(_data);
             return new object[1][] { resultList.ToArray() };
         }
